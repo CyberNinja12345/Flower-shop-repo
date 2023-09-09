@@ -128,8 +128,13 @@ line-height: 35px;
 }
 .offer-containar{
     display: flex;
+    width: 1550px;
+    height: 420px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 200px 762px 142px 423px ;
+    gap: 250px;
 }
-.offer-description{
-
+.red{
+    color: #E55473;
 }
-.
