@@ -36,6 +36,7 @@ body{
     padding: 20px 43px;
     margin-top: 32px;
     border: 0px;
+    cursor: pointer;
 }
 .first-img{
  width: 630px;
@@ -137,4 +138,43 @@ line-height: 35px;
 }
 .red{
     color: #E55473;
+}
+.flower-containar{
+    text-align: center;
+}
+.flower-dejain{
+    text-align: center;
+}
+.flower-items{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:48px ;
+    gap: 24px ;
+    margin-bottom: 128px;
+}
+.your-deals{
+    text-align: center;
+}
+.input-fild{
+    text-align: center;
+}
+.input-email{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    margin-right: 16px;
+}
+.background-img{
+    background-image: url("/Flower Asset/Rectangle\ 9.png");
+    margin: 228px 220px;
+    width: 1440px;
+    height: 449px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 28px ;
 }
