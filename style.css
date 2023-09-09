@@ -64,7 +64,6 @@ width: 530px;
     width: 310px;
     gap: 25px;
     padding: 48px 728px 120px;
-    
 }
 .main-top-title{
   text-align: center;
@@ -100,3 +99,37 @@ font-weight: 700;
 line-height: 35px; 
 text-decoration-line: underline;
 }
+.service-containar{
+    margin: 128px 25%;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    background-position: center;
+}
+.service-img{
+    padding:86px 356px 24px 317px ;
+    display: flex;
+    gap: 357px;
+}
+.service-description{
+    display: flex;
+}
+.service-title-description{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px; 
+}
+.service-description{
+    gap: 130px;
+    margin:24px 100px 87px 200px ;
+}
+.offer-containar{
+    display: flex;
+}
+.offer-description{
+
+}
+.
