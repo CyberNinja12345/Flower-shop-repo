@@ -51,46 +51,47 @@ padding-top: 176px;
 }
 .-primary{
     /* text-align: center; */
-    padding: top 24px; ;
+    padding: top 24px; 
 }
-.main-img{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-height: 535px;
-width: 530px;
+.main-containar{
+ text-align: center;
 }
 .main-top-img{
-    display: flex;
-    height: 428px;
-    width: 310px;
-    gap: 25px;
-    padding: 48px 728px 120px;
-}
-.main-top-title{
-  text-align: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px; 
+    justify-content: center;
+    margin-top:48px ;
+    gap: 24px ;
 }
 .-one1{
-    width: 464px;
-height: 538px;
-flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:110px ;
+    background-position: center;
+}
+
+.img-sell{
+ display: flex;
+ justify-content: center;
+ gap: 24px;
 }
 .-two2{
     background: rgba(5, 151, 160, 0.15);
-    width: 464px;
-height: 538px;
-flex-shrink: 0;
 }
 .-three3{
     background: rgba(71, 125, 17, 0.15);
-    width: 464px;
-height: 538px;
-flex-shrink: 0;
 }
+
 .pink-flower-tree{
     display: flex;
-    justify-content: center;
-    gap: 307px;
+    align-items: center;
     text-align: center;
+    gap: 308px;
+    justify-content: center;
 }
 .text{
     color: #272727;
@@ -99,6 +100,7 @@ font-size: 24px;
 font-weight: 700;
 line-height: 35px; 
 text-decoration-line: underline;
+margin-top: 32px;
 }
 .service-containar{
     margin: 128px 25%;
@@ -177,4 +179,32 @@ line-height: 35px;
     background-size: cover;
     margin: auto;
     margin-top: 28px ;
+}
+/* footer section */
+.footer{
+    color: #FFF;
+    background: #111010;
+    text-align: center;
+    margin-top:128px ;
+     height: 40vh;
+}
+.footer-containar{
+ padding-top: 128px;
+}
+.-footer{
+    color: #ffffff;
+    margin: top 128px; ;
+}
+.footer-description{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.90);
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+margin-top: 32px;
 }
